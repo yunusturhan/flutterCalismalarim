@@ -5,8 +5,17 @@ class NewStateless extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: null,
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Hellow"),
+      ),
+      body: Center(
+        child: Container(
+          child: Row(
+            children: [],
+          ),
+        ),
+      ),
     );
   }
 }
